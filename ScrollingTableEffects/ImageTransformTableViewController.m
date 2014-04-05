@@ -123,7 +123,6 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     NSArray* indexPaths = [self.tableView indexPathsForVisibleRows];
-    NSLog( @"%d", [indexPaths count]);
     for( NSIndexPath* indexPath in indexPaths ) {
         
         ImageTableViewCell* cell = (ImageTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
