@@ -14,13 +14,15 @@
 		266ADB8718EFAD0600AFFB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADB8618EFAD0600AFFB3D /* main.m */; };
 		266ADB8B18EFAD0600AFFB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADB8A18EFAD0600AFFB3D /* AppDelegate.m */; };
 		266ADB8E18EFAD0600AFFB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266ADB8C18EFAD0600AFFB3D /* Main.storyboard */; };
-		266ADB9118EFAD0600AFFB3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADB9018EFAD0600AFFB3D /* ViewController.m */; };
 		266ADB9318EFAD0600AFFB3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266ADB9218EFAD0600AFFB3D /* Images.xcassets */; };
 		266ADB9A18EFAD0600AFFB3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266ADB9918EFAD0600AFFB3D /* XCTest.framework */; };
 		266ADB9B18EFAD0600AFFB3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266ADB7A18EFAD0600AFFB3D /* Foundation.framework */; };
 		266ADB9C18EFAD0600AFFB3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266ADB7E18EFAD0600AFFB3D /* UIKit.framework */; };
 		266ADBA418EFAD0600AFFB3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 266ADBA218EFAD0600AFFB3D /* InfoPlist.strings */; };
 		266ADBA618EFAD0600AFFB3D /* ScrollingTableEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADBA518EFAD0600AFFB3D /* ScrollingTableEffectsTests.m */; };
+		266ADBB118EFAD5E00AFFB3D /* ImageTransformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADBB018EFAD5E00AFFB3D /* ImageTransformTableViewController.m */; };
+		266ADBB418EFAEBC00AFFB3D /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 266ADBB318EFAEBC00AFFB3D /* ImageTableViewCell.m */; };
+		266ADBB618EFAF0700AFFB3D /* 42ndst.png in Resources */ = {isa = PBXBuildFile; fileRef = 266ADBB518EFAF0700AFFB3D /* 42ndst.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,17 @@
 		266ADB8918EFAD0600AFFB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		266ADB8A18EFAD0600AFFB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		266ADB8D18EFAD0600AFFB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		266ADB8F18EFAD0600AFFB3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		266ADB9018EFAD0600AFFB3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		266ADB9218EFAD0600AFFB3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		266ADB9818EFAD0600AFFB3D /* ScrollingTableEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingTableEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266ADB9918EFAD0600AFFB3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		266ADBA118EFAD0600AFFB3D /* ScrollingTableEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingTableEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		266ADBA318EFAD0600AFFB3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		266ADBA518EFAD0600AFFB3D /* ScrollingTableEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingTableEffectsTests.m; sourceTree = "<group>"; };
+		266ADBAF18EFAD5E00AFFB3D /* ImageTransformTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformTableViewController.h; sourceTree = "<group>"; };
+		266ADBB018EFAD5E00AFFB3D /* ImageTransformTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformTableViewController.m; sourceTree = "<group>"; };
+		266ADBB218EFAEBC00AFFB3D /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		266ADBB318EFAEBC00AFFB3D /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		266ADBB518EFAF0700AFFB3D /* 42ndst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 42ndst.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +117,16 @@
 		266ADB8018EFAD0600AFFB3D /* ScrollingTableEffects */ = {
 			isa = PBXGroup;
 			children = (
+				266ADBB518EFAF0700AFFB3D /* 42ndst.png */,
 				266ADB8918EFAD0600AFFB3D /* AppDelegate.h */,
 				266ADB8A18EFAD0600AFFB3D /* AppDelegate.m */,
 				266ADB8C18EFAD0600AFFB3D /* Main.storyboard */,
-				266ADB8F18EFAD0600AFFB3D /* ViewController.h */,
-				266ADB9018EFAD0600AFFB3D /* ViewController.m */,
 				266ADB9218EFAD0600AFFB3D /* Images.xcassets */,
 				266ADB8118EFAD0600AFFB3D /* Supporting Files */,
+				266ADBAF18EFAD5E00AFFB3D /* ImageTransformTableViewController.h */,
+				266ADBB018EFAD5E00AFFB3D /* ImageTransformTableViewController.m */,
+				266ADBB218EFAEBC00AFFB3D /* ImageTableViewCell.h */,
+				266ADBB318EFAEBC00AFFB3D /* ImageTableViewCell.m */,
 			);
 			path = ScrollingTableEffects;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266ADBB618EFAF0700AFFB3D /* 42ndst.png in Resources */,
 				266ADB9318EFAD0600AFFB3D /* Images.xcassets in Resources */,
 				266ADB8518EFAD0600AFFB3D /* InfoPlist.strings in Resources */,
 				266ADB8E18EFAD0600AFFB3D /* Main.storyboard in Resources */,
@@ -249,7 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266ADB9118EFAD0600AFFB3D /* ViewController.m in Sources */,
+				266ADBB118EFAD5E00AFFB3D /* ImageTransformTableViewController.m in Sources */,
+				266ADBB418EFAEBC00AFFB3D /* ImageTableViewCell.m in Sources */,
 				266ADB8B18EFAD0600AFFB3D /* AppDelegate.m in Sources */,
 				266ADB8718EFAD0600AFFB3D /* main.m in Sources */,
 			);
