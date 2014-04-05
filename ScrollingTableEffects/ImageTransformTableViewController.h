@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageTransformTableViewController.h
 //  ScrollingTableEffects
 //
 //  Created by Tobin Schwaiger-Hastanan on 4/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ImageTransformTableViewController : UITableViewController
 
 @end
