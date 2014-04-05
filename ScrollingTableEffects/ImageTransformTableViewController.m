@@ -128,9 +128,10 @@
         ImageTableViewCell* cell = (ImageTableViewCell*) [self.tableView cellForRowAtIndexPath:indexPath];
         CGRect frame = [self.tableView rectForRowAtIndexPath:indexPath];
         CGFloat scale = (frame.origin.y - (scrollView.contentOffset.y + 64.0) + 400.0 ) / 400.0;
+
         cell.photo.transform = CGAffineTransformScale( CGAffineTransformIdentity,
-                                                1.0 + 0.5 * scale,
-                                                1.0 + 0.5 * scale);
+                                                1.0 + 0.5 * sin(scale * M_PI_2),
+                                                1.0 + 0.5 * sin(scale * M_PI_2));
         cell.gradientView.alpha = scale / 0.50 - 0.5;
     }
 }
